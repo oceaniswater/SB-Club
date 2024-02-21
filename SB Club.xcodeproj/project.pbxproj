@@ -16,6 +16,7 @@
 		86FCBDE52B864EC9000FCE60 /* BookCourtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDE42B864EC9000FCE60 /* BookCourtView.swift */; };
 		86FCBDE72B86507C000FCE60 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDE62B86507C000FCE60 /* OtherView.swift */; };
 		86FCBDEA2B865290000FCE60 /* MembershipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDE92B86528F000FCE60 /* MembershipViewModel.swift */; };
+		86FCBDEC2B8665EF000FCE60 /* BookSessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDEB2B8665EF000FCE60 /* BookSessionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		86FCBDE42B864EC9000FCE60 /* BookCourtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCourtView.swift; sourceTree = "<group>"; };
 		86FCBDE62B86507C000FCE60 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		86FCBDE92B86528F000FCE60 /* MembershipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipViewModel.swift; sourceTree = "<group>"; };
+		86FCBDEB2B8665EF000FCE60 /* BookSessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSessionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +63,15 @@
 		86FCBDD12B864918000FCE60 /* SB Club */ = {
 			isa = PBXGroup;
 			children = (
+				86FCBDE02B864C46000FCE60 /* AppTabView.swift */,
 				86FCBDE82B865275000FCE60 /* Membership */,
 				86FCBDD22B864918000FCE60 /* SB_ClubApp.swift */,
 				86FCBDD42B864918000FCE60 /* ContentView.swift */,
 				86FCBDD62B864919000FCE60 /* Assets.xcassets */,
 				86FCBDD82B864919000FCE60 /* Preview Content */,
-				86FCBDE02B864C46000FCE60 /* AppTabView.swift */,
 				86FCBDE42B864EC9000FCE60 /* BookCourtView.swift */,
 				86FCBDE62B86507C000FCE60 /* OtherView.swift */,
+				86FCBDEB2B8665EF000FCE60 /* BookSessionsView.swift */,
 			);
 			path = "SB Club";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				86FCBDE52B864EC9000FCE60 /* BookCourtView.swift in Sources */,
 				86FCBDE32B864E4D000FCE60 /* MembershipView.swift in Sources */,
 				86FCBDD32B864918000FCE60 /* SB_ClubApp.swift in Sources */,
+				86FCBDEC2B8665EF000FCE60 /* BookSessionsView.swift in Sources */,
 				86FCBDE72B86507C000FCE60 /* OtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
