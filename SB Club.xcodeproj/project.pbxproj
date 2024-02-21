@@ -11,6 +11,11 @@
 		86FCBDD52B864918000FCE60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDD42B864918000FCE60 /* ContentView.swift */; };
 		86FCBDD72B864919000FCE60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FCBDD62B864919000FCE60 /* Assets.xcassets */; };
 		86FCBDDA2B864919000FCE60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FCBDD92B864919000FCE60 /* Preview Assets.xcassets */; };
+		86FCBDE12B864C46000FCE60 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDE02B864C46000FCE60 /* AppTabView.swift */; };
+		86FCBDE32B864E4D000FCE60 /* MembershipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDE22B864E4D000FCE60 /* MembershipView.swift */; };
+		86FCBDE52B864EC9000FCE60 /* BookCourtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDE42B864EC9000FCE60 /* BookCourtView.swift */; };
+		86FCBDE72B86507C000FCE60 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDE62B86507C000FCE60 /* OtherView.swift */; };
+		86FCBDEA2B865290000FCE60 /* MembershipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FCBDE92B86528F000FCE60 /* MembershipViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		86FCBDD42B864918000FCE60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86FCBDD62B864919000FCE60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86FCBDD92B864919000FCE60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86FCBDE02B864C46000FCE60 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		86FCBDE22B864E4D000FCE60 /* MembershipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipView.swift; sourceTree = "<group>"; };
+		86FCBDE42B864EC9000FCE60 /* BookCourtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCourtView.swift; sourceTree = "<group>"; };
+		86FCBDE62B86507C000FCE60 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		86FCBDE92B86528F000FCE60 /* MembershipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembershipViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +61,14 @@
 		86FCBDD12B864918000FCE60 /* SB Club */ = {
 			isa = PBXGroup;
 			children = (
+				86FCBDE82B865275000FCE60 /* Membership */,
 				86FCBDD22B864918000FCE60 /* SB_ClubApp.swift */,
 				86FCBDD42B864918000FCE60 /* ContentView.swift */,
 				86FCBDD62B864919000FCE60 /* Assets.xcassets */,
 				86FCBDD82B864919000FCE60 /* Preview Content */,
+				86FCBDE02B864C46000FCE60 /* AppTabView.swift */,
+				86FCBDE42B864EC9000FCE60 /* BookCourtView.swift */,
+				86FCBDE62B86507C000FCE60 /* OtherView.swift */,
 			);
 			path = "SB Club";
 			sourceTree = "<group>";
@@ -65,6 +79,15 @@
 				86FCBDD92B864919000FCE60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86FCBDE82B865275000FCE60 /* Membership */ = {
+			isa = PBXGroup;
+			children = (
+				86FCBDE92B86528F000FCE60 /* MembershipViewModel.swift */,
+				86FCBDE22B864E4D000FCE60 /* MembershipView.swift */,
+			);
+			path = Membership;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FCBDE12B864C46000FCE60 /* AppTabView.swift in Sources */,
 				86FCBDD52B864918000FCE60 /* ContentView.swift in Sources */,
+				86FCBDEA2B865290000FCE60 /* MembershipViewModel.swift in Sources */,
+				86FCBDE52B864EC9000FCE60 /* BookCourtView.swift in Sources */,
+				86FCBDE32B864E4D000FCE60 /* MembershipView.swift in Sources */,
 				86FCBDD32B864918000FCE60 /* SB_ClubApp.swift in Sources */,
+				86FCBDE72B86507C000FCE60 /* OtherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +308,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +338,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
